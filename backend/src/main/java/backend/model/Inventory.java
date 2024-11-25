@@ -46,5 +46,71 @@ public class Inventory {
         return stockCode;
     }
 
+    public void setStockCode(String stockCode) {
+        this.stockCode = stockCode;
+    }
 
+    public String getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(String quantity) {
+        this.quantity = quantity;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+
+    public String getWeight() {
+        return weight;
+    }
+
+    public void setWeight(String weight) {
+        this.weight = weight;
+    }
+
+    public String getWidth() {
+        return Width;
+    }
+
+    public void setWidth(String width) {
+        Width = width;
+    }
+
+    public String getThickness() {
+        return thickness;
+    }
+
+    public void setThickness(String thickness) {
+        this.thickness = thickness;
+    }
+
+    public String getMaterialGrade() {
+        return materialGrade;
+    }
+
+    public void setMaterialGrade(String materialGrade) {
+        this.materialGrade = materialGrade;
+    }
+
+    public String getTotalWeight() {
+        return totalWeight;
+    }
+
+    public void setTotalWeight(String totalWeight) {
+        this.totalWeight = totalWeight;
+    }
+
+    public String getTotalValue() {
+        return totalValue;
+    }
+
+    public void setTotalValue(String totalValue) {
+        this.totalValue = totalValue;
+    }
 }
